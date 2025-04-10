@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" Content="width=device-width, initial-scale=1.0" />
+  <title> Projet Memory-Niveau Facile </title>
+  <link rel="stylesheet" type="text/css" href="niveau facile.css"/>
+</head>
+<body>
+<section id="first">
+    <div id="timer">Time:  02:00</div>
+    <button id="start"> Début </button>
+    <p id="score"> Nombre de coup : 0 </p>
+</section>
+
+<section id="second">
+    <div class="terrain">
+        <div class="cartes" data-valeur="1">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="cake choco.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="1">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="cake choco.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="2">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="cookie.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="2">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="cookie.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="3">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="fraise.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="3">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="fraise.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="4">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="cupcake.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+        <div class="cartes" data-valeur="4">
+            <div class="carte" >
+                <div class="carte-dos face-arriere">
+                    <img src="dos carte.png" alt="carte" >
+                </div>
+                <div class="carte-face face-devant">
+                    <img src="cupcake.png" alt="carte" >
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div id="conteneur" style="display: none;">
+    <form id="pop-up" onsubmit=validationNom()>
+        <label id="label"for="nom">Entrez votre nom </label><br><br>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
+        <button id="bouton">Ok</button>
+    </form>
+</div>
+<script src="java-jeu-memory.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color:rgba(112, 146, 190, 0.803);
+    text-align: center;
+}
+
+table{
+    border-radius:6px;
+    color:rgb(255, 250, 242);
+    overflow: hidden;
+    width : 90%;
+    margin: 20px auto;
+
+}
+
+td,th{
+
+    border: 2px solid  rgb(255, 255, 255);
+}
+
+h2{
+    color:rgb(255, 255, 255);
+}
+
+tr{
+    background-color:rgba(112, 146, 190);
+}
+
+tr:hover{
+    color : rgb(255, 255, 255);
+    background-color: rgba(84, 84, 202, 0.849);
+}
+
+button{
+    text-align: center;
+    margin-top: 390px;
+    margin:60px;
+    background-color:rgba(107, 130, 212, 0.5) ;
+    color:rgb(255, 250, 242);
+    border-radius: 3px;
+    border: 2px solid rgb(255, 250, 242);
+    font-size: 20px;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}

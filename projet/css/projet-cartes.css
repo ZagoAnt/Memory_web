@@ -1,0 +1,47 @@
+body{
+    background-image: url("../multimedia/background.png");
+    background-size:cover;
+    /*background-size:100vw 100vh;
+    /*background-size:100% 620%;
+    background-position:center;
+    background-repeat: no-repeat;*/
+    
+}
+#titre{
+    text-align: center;
+    margin-top: 220px;
+    font-size: xx-large;
+    color:white;
+}
+#choix{
+    text-align: center;
+    margin-top: 260px;
+    margin:10px;
+    font-size: x-large;
+    color:white;
+}
+#bouton,#classement{
+    display: flex;
+    justify-content: center;
+}
+button{
+    text-align: center;
+    background-color:rgba(107, 130, 212, 0.5) ;
+    color:rgb(255, 250, 242);
+    border-radius: 3px;
+    margin:10px;
+    border: 2px solid rgb(255, 250, 242);
+    font-size: 30px;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#noms{
+    text-align:center;
+    margin-top: 260px;
+    margin:170px;
+    font-size: x-large;
+    color:white;
+}
+
